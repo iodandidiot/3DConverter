@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using _3DConverter.ConverterModule.ConvertibleFiles;
+using _3DConverter.Converter.ConvertibleFiles;
 
 namespace _3DConverter.ConverterModule
 {

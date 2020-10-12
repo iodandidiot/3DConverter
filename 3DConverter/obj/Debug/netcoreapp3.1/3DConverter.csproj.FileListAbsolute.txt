@@ -35,3 +35,5 @@ C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.g.resourc
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.AssemblyInfoInputs.cache
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.AssemblyInfo.cs
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.csproj.CopyComplete
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\FileDescriptionWindow.g.cs
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\FileDescriptionWindow.baml

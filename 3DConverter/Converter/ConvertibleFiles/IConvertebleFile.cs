@@ -1,9 +1,13 @@
-﻿using System.Threading.Tasks;
+﻿using System;
 
-namespace _3DConverter.ConverterModule.ConvertibleFiles
+namespace _3DConverter.Converter.ConvertibleFiles
 {
     public interface IConvertibleFile
     {
-        Task ConvertAsync { get; set; }
+        void Convert();
+
+        event Action<float> UpdateProgress;
+
+        string FileType { get; }
     }
 }

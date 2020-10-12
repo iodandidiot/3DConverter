@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Project\3DConverter\3DConverter\App.xaml
-11151548125
+2501924590
 
-82102285225
+23-1497361824
 193-1287879453
-MainWindow.xaml;
+FileDescriptionWindow.xaml;MainWindow.xaml;
 
-False
+True
 

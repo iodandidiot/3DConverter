@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
+using _3DConverter.Converter.ConvertibleFiles;
 using _3DConverter.ConverterModule;
-using _3DConverter.ConverterModule.ConvertibleFiles;
 
 namespace _3DConverter.Converter
 {
@@ -8,7 +8,7 @@ namespace _3DConverter.Converter
     {
         public Task ConvertAsync(IConvertibleFile file)
         {
-            return file.ConvertAsync;
+            return file.ConvertAsync();
         }
     }
 }
