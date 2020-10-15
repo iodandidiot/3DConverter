@@ -1,11 +1,12 @@
-﻿using _3DConverter.Converter.ConvertibleFiles;
+﻿using System;
+using _3DConverter.Converter.ConvertibleFiles;
 
 namespace _3DConverter.ViewModels
 {
     public class ConvertedFileViewModel : ViewModelBase
     {
-        private readonly FileDescriptionViewModel _fileDescriptionWindow;
-        private readonly IConvertibleFile _convertibleFile;
+        private readonly ConvertedFileDescriptionViewModel _convertedFileDescriptionWindow;
+        private IConvertibleFile _convertibleFile;
         private float _progress;
         private RelayCommand _addCommand;
 
@@ -19,7 +20,7 @@ namespace _3DConverter.ViewModels
             }
         }
 
-        public string FileType => _convertibleFile.FileType;
+        public string FileType => _convertibleFile.FileName;
 
         public RelayCommand AddCommand
         {
@@ -27,16 +28,24 @@ namespace _3DConverter.ViewModels
             {
                 return _addCommand ??= new RelayCommand(obj =>
                 {
-                    _fileDescriptionWindow.OpenFileDescription(_convertibleFile);
+                    _convertedFileDescriptionWindow.OpenFileDescription(_convertibleFile);
                 });
             }
         }
 
-        public ConvertedFileViewModel(IConvertibleFile convertibleFile, FileDescriptionViewModel fileDescriptionWindow)
+        public event Action<ConvertedFileViewModel> FileDeleted;
+
+        public ConvertedFileViewModel(ConvertedFileDescriptionViewModel convertedFileDescriptionWindow)
+        {
+            _convertedFileDescriptionWindow = convertedFileDescriptionWindow;
+        }
+
+        public ConvertedFileViewModel WithModel(IConvertibleFile convertibleFile)
         {
             _convertibleFile = convertibleFile;
-            _fileDescriptionWindow = fileDescriptionWindow;
             _convertibleFile.UpdateProgress += OnUpdateProgress;
+            _convertibleFile.FileDeleted += () => FileDeleted?.Invoke(this);
+            return this;
         }
 
         private void OnUpdateProgress(float value)

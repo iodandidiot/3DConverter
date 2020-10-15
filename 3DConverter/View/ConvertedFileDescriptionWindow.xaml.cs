@@ -15,11 +15,20 @@ namespace _3DConverter
     /// <summary>
     /// Interaction logic for FileDescriptionWindow.xaml
     /// </summary>
-    public partial class FileDescriptionWindow : Window
+    public partial class ConvertedFileDescriptionWindow : Window
     {
-        public FileDescriptionWindow()
+        private readonly MainWindow _mainWindow;
+
+        public ConvertedFileDescriptionWindow(MainWindow mainWindow)
         {
+            _mainWindow = mainWindow;
+            _mainWindow.Closed += MainWindowClosed;
             InitializeComponent();
+        }
+
+        private void MainWindowClosed(object? sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

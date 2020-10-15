@@ -7,7 +7,7 @@ namespace _3DConverter.Converter
     {
         protected override void Load(ContainerBuilder container)
         {
-            container.RegisterType<_3DConverter.Converter.Converter>().As<IConverter>();
+            container.RegisterType<ConvertedFileFactory>().As<IConvertedFileFactory>();
         }
     }
 }

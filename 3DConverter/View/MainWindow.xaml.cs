@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Windows;
+using _3DConverter.ViewModels;
 
 namespace _3DConverter
 {

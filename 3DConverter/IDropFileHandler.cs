@@ -4,6 +4,6 @@ namespace _3DConverter
 {
     public interface IDropFileHandler
     {
-        Task<DropFileModel> GetFileDropAsync(string dropFile);
+        Task<ImportedFileModel> GetFileDropAsync(string dropFile);
     }
 }

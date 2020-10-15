@@ -2,12 +2,14 @@
 
 namespace _3DConverter.Converter.ConvertibleFiles
 {
-    public interface IConvertibleFile
+    public interface IConvertibleFile : IDeletableModel
     {
         void Convert();
 
         event Action<float> UpdateProgress;
 
-        string FileType { get; }
+        string FileName { get; }
+
+        string FileOriginalPath { get; }
     }
 }

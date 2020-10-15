@@ -1,7 +1,10 @@
-﻿namespace _3DConverter.ViewModels
+﻿using _3DConverter.Converter.ConvertibleFiles;
+
+namespace _3DConverter.ViewModels
 {
     public interface IFileViewModelFactory
     {
-        ImportedFileViewModel CreateImportedFileModels(ImportedFileModel model);
+        ImportedFileViewModel CreateImportedFileModel(ImportedFileModel model);
+        ConvertedFileViewModel CreateConvertedFileViewModel(IConvertibleFile model);
     }
 }

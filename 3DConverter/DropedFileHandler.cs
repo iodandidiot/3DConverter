@@ -7,7 +7,7 @@ namespace _3DConverter
     {
         private const string FilePattern = ".shapr";
 
-        public async Task<DropFileModel> GetFileDropAsync(string dropFile)
+        public async Task<ImportedFileModel> GetFileDropAsync(string dropFile)
         {
             if (!dropFile.EndsWith(FilePattern))
                 return null;
@@ -20,7 +20,7 @@ namespace _3DConverter
                 await sourceStream.ReadAsync(result, 0, (int) sourceStream.Length).ConfigureAwait(false);
             }
 
-            return new DropFileModel(Path.GetFileName(dropFile), result);
+            return new ImportedFileModel(Path.GetFileName(dropFile), result, dropFile);
         }
     }
 }

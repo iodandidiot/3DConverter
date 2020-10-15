@@ -16,7 +16,6 @@ C:\Project\3DConverter\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConvert
 C:\Project\3DConverter\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.dll
 C:\Project\3DConverter\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.pdb
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.csprojAssemblyReference.cache
-C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter_MarkupCompile.cache
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter_MarkupCompile.lref
@@ -30,10 +29,15 @@ C:\Project\3DConverter\3DConverter\bin\Debug\netcoreapp3.1\3DConverter.dll
 C:\Project\3DConverter\3DConverter\bin\Debug\netcoreapp3.1\3DConverter.pdb
 C:\Project\3DConverter\3DConverter\bin\Debug\netcoreapp3.1\Autofac.dll
 C:\Project\3DConverter\3DConverter\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.g.resources
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.AssemblyInfoInputs.cache
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.AssemblyInfo.cs
 C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter.csproj.CopyComplete
-C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\FileDescriptionWindow.g.cs
-C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\FileDescriptionWindow.baml
+C:\Project\3DConverter\3DConverter\bin\Debug\netcoreapp3.1\download-512.png
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\3DConverter_Content.g.cs
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\View\MainWindow.g.cs
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\View\MainWindow.baml
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\View\ConvertedFileDescriptionWindow.g.cs
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\View\ImportedFileDescriptionWindow.g.cs
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\View\ConvertedFileDescriptionWindow.baml
+C:\Project\3DConverter\3DConverter\obj\Debug\netcoreapp3.1\View\ImportedFileDescriptionWindow.baml

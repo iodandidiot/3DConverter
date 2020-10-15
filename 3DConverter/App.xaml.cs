@@ -22,7 +22,6 @@ namespace _3DConverter
         private void App_OnStartup(object sender, StartupEventArgs e)
         {
             var mainWindow = _container.Resolve<MainWindow>();
-            //this.Resources.Add("MainViewModel", mainViewModel);
             mainWindow.Show();
         }
     }
