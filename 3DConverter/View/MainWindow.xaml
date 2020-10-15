@@ -76,7 +76,7 @@
         </ListBox>
         <StackPanel Grid.Row="0" Grid.Column="0" Drop="FileDrop" AllowDrop="true" HorizontalAlignment="Center"
                     Height="104" VerticalAlignment="Center" Width="380" Background="Lavender">
-            <TextBlock Text="Drop your file here" VerticalAlignment="Center" HorizontalAlignment="Center"
+            <TextBlock Text="Drop your .shapr file here" VerticalAlignment="Center" HorizontalAlignment="Center"
                        TextWrapping="Wrap" />
             <Image Height="62" Stretch="Fill" Source="/download-512.png" Width="113" />
         </StackPanel>
