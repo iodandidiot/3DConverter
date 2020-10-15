@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DConverter", "3DConverter\3DConverter.csproj", "{83E864B9-F365-4B2F-B5E7-3DAA6F6BAA20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3DConverter", "3DConverter\3DConverter.csproj", "{83E864B9-F365-4B2F-B5E7-3DAA6F6BAA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{39110E9F-0F26-407C-BDF6-80F14472CF3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{83E864B9-F365-4B2F-B5E7-3DAA6F6BAA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E864B9-F365-4B2F-B5E7-3DAA6F6BAA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E864B9-F365-4B2F-B5E7-3DAA6F6BAA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39110E9F-0F26-407C-BDF6-80F14472CF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39110E9F-0F26-407C-BDF6-80F14472CF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39110E9F-0F26-407C-BDF6-80F14472CF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39110E9F-0F26-407C-BDF6-80F14472CF3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
